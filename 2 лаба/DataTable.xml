@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<players>
+    <player number="1">
+        <nameTur nameTur="I/WE soccer ball">
+            <data>
+                <day>01</day>
+                <month>04</month>
+                <year>2018</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="60.0">
+                    <SNS>
+                        <surname>Lobanovsky</surname>
+                        <name>Nikita</name>
+                        <succession>Nikolaevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="2">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>19</day>
+                <month>03</month>
+                <year>2022</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Anischenko</surname>
+                        <name>Eugene</name>
+                        <succession>Sergeyevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="3">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="10.0">
+                    <SNS>
+                        <surname>Ivanov</surname>
+                        <name>Sergei</name>
+                        <succession>Petrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="4">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>19</day>
+                <month>03</month>
+                <year>2022</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Rudenko</surname>
+                        <name>Nikita</name>
+                        <succession>Sergeyevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="5">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>04</day>
+                <month>05</month>
+                <year>2019</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Ivanov</surname>
+                        <name>Ivan</name>
+                        <succession>Ivanovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="6">
+        <nameTur nameTur="Jump up!!!">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="15.0">
+                    <SNS>
+                        <surname>Vorona</surname>
+                        <name>Sergei</name>
+                        <succession>Vitalievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="7">
+        <nameTur nameTur="Jump up!!!">
+            <data>
+                <day>17</day>
+                <month>02</month>
+                <year>2020</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="80.0">
+                    <SNS>
+                        <surname>Chich</surname>
+                        <name>Gleb</name>
+                        <succession>Sergeyevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="8">
+        <nameTur nameTur="Inhale-exhale">
+            <data>
+                <day>04</day>
+                <month>05</month>
+                <year>2019</year>
+            </data>
+            <sport sport="Swimming">
+                <winningSize winningSize="120.0">
+                    <SNS>
+                        <surname>Grakov</surname>
+                        <name>Vitya</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="9">
+        <nameTur nameTur="I/WE soccer ball">
+            <data>
+                <day>01</day>
+                <month>04</month>
+                <year>2018</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="60.0">
+                    <SNS>
+                        <surname>Garist</surname>
+                        <name>Rostik</name>
+                        <succession>Eduardovich</succession>
+                    </SNS>
+
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="10">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>19</day>
+                <month>03</month>
+                <year>2022</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Badey</surname>
+                        <name>Stas</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="11">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="10.0">
+                    <SNS>
+                        <surname>Glekow</surname>
+                        <name>Alexander</name>
+                        <succession>Vitalievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="12">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>19</day>
+                <month>03</month>
+                <year>2022</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Kozhemyako</surname>
+                        <name>Nikita</name>
+                        <succession>Dmitrievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="13">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>04</day>
+                <month>05</month>
+                <year>2019</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Ozerets</surname>
+                        <name>Danila</name>
+                        <succession>Olegovych</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="14">
+        <nameTur nameTur="Jump up!!!">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="15.0">
+                    <SNS>
+                        <surname>Bondarenko</surname>
+                        <name>Nikita</name>
+                        <succession>Agafonovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="15">
+        <nameTur nameTur="Jump up!!!">
+            <data>
+                <day>10</day>
+                <month>03</month>
+                <year>2003</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="120.0">
+                    <SNS>
+                        <surname>Kitov</surname>
+                        <name>Efim</name>
+                        <succession>Agapovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="16">
+        <nameTur nameTur="Inhale-exhale">
+            <data>
+                <day>30</day>
+                <month>12</month>
+                <year>2010</year>
+            </data>
+            <sport sport="Swimming">
+                <winningSize winningSize="50.0">
+                    <SNS>
+                        <surname>Gurcev</surname>
+                        <name>Sergei</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="17">
+        <nameTur nameTur="I/WE soccer ball">
+            <data>
+                <day>05</day>
+                <month>07</month>
+                <year>2010</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="30.0">
+                    <SNS>
+                        <surname>Larin</surname>
+                        <name>Kirill</name>
+                        <succession>Aksyonovich</succession>
+                    </SNS>
+
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="18">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>10</day>
+                <month>03</month>
+                <year>2014</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="10.0">
+                    <SNS>
+                        <surname>Smirnow</surname>
+                        <name>Kirill</name>
+                        <succession>Sergeyevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="19">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>02</day>
+                <month>01</month>
+                <year>2016</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="25.0">
+                    <SNS>
+                        <surname>Valeev</surname>
+                        <name>Vladislav</name>
+                        <succession>Artyomovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="20">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>28</day>
+                <month>09</month>
+                <year>2020</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="70.0">
+                    <SNS>
+                        <surname>Sokolov</surname>
+                        <name>Igor</name>
+                        <succession>Arturovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="21">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>06</day>
+                <month>06</month>
+                <year>2006</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="75.0">
+                    <SNS>
+                        <surname>Ivanov</surname>
+                        <name>Kirill</name>
+                        <succession>Bogdanovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="22">
+        <nameTur nameTur="Hit harder!!!">
+            <data>
+                <day>01</day>
+                <month>01</month>
+                <year>2018</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="90.0">
+                    <SNS>
+                        <surname>Litvinow</surname>
+                        <name>Danila</name>
+                        <succession>Igorevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="23">
+        <nameTur nameTur="Hit harder!!!">
+            <data>
+                <day>02</day>
+                <month>02</month>
+                <year>2019</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="150.0">
+                    <SNS>
+                        <surname>Nikolauchik</surname>
+                        <name>Yan</name>
+                        <succession>Sergeyevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="24">
+        <nameTur nameTur="Hit harder!!!">
+            <data>
+                <day>03</day>
+                <month>03</month>
+                <year>2020</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="160.0">
+                    <SNS>
+                        <surname>Stepanow</surname>
+                        <name>Nikita</name>
+                        <succession>Vadimovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="25">
+        <nameTur nameTur="Boxing is life">
+            <data>
+                <day>10</day>
+                <month>02</month>
+                <year>2017</year>
+            </data>
+            <sport sport="box">
+                <winningSize winningSize="60.0">
+                    <SNS>
+                        <surname>Sivashko</surname>
+                        <name>Anton</name>
+                        <succession>Antonovich</succession>
+                    </SNS>
+
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="26">
+        <nameTur nameTur="Boxing is life">
+            <data>
+                <day>15</day>
+                <month>03</month>
+                <year>2018</year>
+            </data>
+            <sport sport="box">
+                <winningSize winningSize="130.0">
+                    <SNS>
+                        <surname>Smelow</surname>
+                        <name>Aleksei</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="27">
+        <nameTur nameTur="Boxing is life">
+            <data>
+                <day>18</day>
+                <month>11</month>
+                <year>2021</year>
+            </data>
+            <sport sport="box">
+                <winningSize winningSize="210.0">
+                    <SNS>
+                        <surname>Pavlyukevich</surname>
+                        <name>Ivan</name>
+                        <succession>Viktorievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="28">
+        <nameTur nameTur="Every Saturday">
+            <data>
+                <day>11</day>
+                <month>11</month>
+                <year>2012</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="110.0">
+                    <SNS>
+                        <surname>Zotow</surname>
+                        <name>Nikita</name>
+                        <succession>Dmitrievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="29">
+        <nameTur nameTur="The first basement racket">
+            <data>
+                <day>25</day>
+                <month>05</month>
+                <year>2014</year>
+            </data>
+            <sport sport="tennis">
+                <winningSize winningSize="45.0">
+                    <SNS>
+                        <surname>Kulak</surname>
+                        <name>Prohor</name>
+                        <succession>Olegovych</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="30">
+        <nameTur nameTur="Jump up!!!">
+            <data>
+                <day>17</day>
+                <month>07</month>
+                <year>2006</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="25.0">
+                    <SNS>
+                        <surname>Bondarenko</surname>
+                        <name>Nikita</name>
+                        <succession>Agafonovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="31">
+        <nameTur nameTur="Basketbool is cool!!!">
+            <data>
+                <day>10</day>
+                <month>03</month>
+                <year>2003</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="115.0">
+                    <SNS>
+                        <surname>Mikhailov</surname>
+                        <name>Anton</name>
+                        <succession>Valerievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="32">
+        <nameTur nameTur="Basketbool is cool!!!">
+            <data>
+                <day>11</day>
+                <month>04</month>
+                <year>2004</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="120.0">
+                    <SNS>
+                        <surname>Gurcev</surname>
+                        <name>Valera</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="33">
+        <nameTur nameTur="Basketbool is cool!!!">
+            <data>
+                <day>06</day>
+                <month>08</month>
+                <year>2016</year>
+            </data>
+            <sport sport="basketbool">
+                <winningSize winningSize="75.0">
+                    <SNS>
+                        <surname>Popov</surname>
+                        <name>Alex</name>
+                        <succession>Vitalievich</succession>
+                    </SNS>
+
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="34">
+        <nameTur nameTur="Basketbool is cool!!!">
+            <data>
+                <day>19</day>
+                <month>03</month>
+                <year>2022</year>
+            </data>
+            <sport sport="basketbool">
+                <winningSize winningSize="125.0">
+                    <SNS>
+                        <surname>Volkow</surname>
+                        <name>Egor</name>
+                        <succession>Gavriilovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="35">
+        <nameTur nameTur="Football awesome">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="10.0">
+                    <SNS>
+                        <surname>Archavin</surname>
+                        <name>Misha</name>
+                        <succession>Petrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="36">
+        <nameTur nameTur="Football awesome">
+            <data>
+                <day>11</day>
+                <month>03</month>
+                <year>2012</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="35.0">
+                    <SNS>
+                        <surname>Kerzhakov</surname>
+                        <name>Vasya</name>
+                        <succession>Davidovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="37">
+        <nameTur nameTur="Football awesome">
+            <data>
+                <day>15</day>
+                <month>02</month>
+                <year>2014</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="55.0">
+                    <SNS>
+                        <surname>Archavin</surname>
+                        <name>Alex</name>
+                        <succession>Davidovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="38">
+        <nameTur nameTur="Football awesome">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2020</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="10.0">
+                    <SNS>
+                        <surname>Archavin</surname>
+                        <name>Nikita</name>
+                        <succession>Alexeevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="39">
+        <nameTur nameTur="Boxing - vs">
+            <data>
+                <day>17</day>
+                <month>07</month>
+                <year>2010</year>
+            </data>
+            <sport sport="box">
+                <winningSize winningSize="75.0">
+                    <SNS>
+                        <surname>Kuplinow</surname>
+                        <name>Karl</name>
+                        <succession>Agafonovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="40">
+        <nameTur nameTur="Boxing - vs">
+            <data>
+                <day>18</day>
+                <month>08</month>
+                <year>2011</year>
+            </data>
+            <sport sport="basketball">
+                <winningSize winningSize="115.0">
+                    <SNS>
+                        <surname>Mikhailov</surname>
+                        <name>Anton</name>
+                        <succession>Valerievich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="41">
+        <nameTur nameTur="Boxing - vs">
+            <data>
+                <day>11</day>
+                <month>04</month>
+                <year>2004</year>
+            </data>
+            <sport sport="box">
+                <winningSize winningSize="130.0">
+                    <SNS>
+                        <surname>Gurcev</surname>
+                        <name>Valera</name>
+                        <succession>Aleksandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="42">
+        <nameTur nameTur="Basketbool is cool!!!">
+            <data>
+                <day>06</day>
+                <month>08</month>
+                <year>2016</year>
+            </data>
+            <sport sport="basketbool">
+                <winningSize winningSize="75.0">
+                    <SNS>
+                        <surname>Popov</surname>
+                        <name>Alex</name>
+                        <succession>Vitalievich</succession>
+                    </SNS>
+
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="43">
+        <nameTur nameTur="Friday">
+            <data>
+                <day>13</day>
+                <month>01</month>
+                <year>2016</year>
+            </data>
+            <sport sport="literball">
+                <winningSize winningSize="55.0">
+                    <SNS>
+                        <surname>Zhukov</surname>
+                        <name>Pasha</name>
+                        <succession>Gavriilovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="44">
+        <nameTur nameTur="Football awesome">
+            <data>
+                <day>05</day>
+                <month>06</month>
+                <year>2000</year>
+            </data>
+            <sport sport="football">
+                <winningSize winningSize="35.0">
+                    <SNS>
+                        <surname>Archavin</surname>
+                        <name>Tolya</name>
+                        <succession>Petrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="45">
+        <nameTur nameTur="Friday">
+            <data>
+                <day>12</day>
+                <month>12</month>
+                <year>2013</year>
+            </data>
+            <sport sport="literbol">
+                <winningSize winningSize="65.0">
+                    <SNS>
+                        <surname>Kirshin</surname>
+                        <name>Valera</name>
+                        <succession>Davidovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="46">
+        <nameTur nameTur="Friday">
+            <data>
+                <day>15</day>
+                <month>02</month>
+                <year>2014</year>
+            </data>
+            <sport sport="literbol">
+                <winningSize winningSize="55.0">
+                    <SNS>
+                        <surname>Archavin</surname>
+                        <name>Alex</name>
+                        <succession>Davidovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="47">
+        <nameTur nameTur="Upward!!!">
+            <data>
+                <day>21</day>
+                <month>11</month>
+                <year>2012</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="85.0">
+                    <SNS>
+                        <surname>Tikhonov</surname>
+                        <name>Albert</name>
+                        <succession>Petrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="48">
+        <nameTur nameTur="Upward!!!">
+            <data>
+                <day>23</day>
+                <month>10</month>
+                <year>2011</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="85.0">
+                    <SNS>
+                        <surname>Isakow</surname>
+                        <name>Dima</name>
+                        <succession>Alexandrovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="49">
+        <nameTur nameTur="Upward!!!">
+            <data>
+                <day>24</day>
+                <month>12</month>
+                <year>2015</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="125.0">
+                    <SNS>
+                        <surname>Aksenov</surname>
+                        <name>Kirill</name>
+                        <succession>Dorofeevich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+
+    <player number="50">
+        <nameTur nameTur="Upward!!!">
+            <data>
+                <day>27</day>
+                <month>05</month>
+                <year>2019</year>
+            </data>
+            <sport sport="volleyball">
+                <winningSize winningSize="135.0">
+                    <SNS>
+                        <surname>Mukhin</surname>
+                        <name>Efim</name>
+                        <succession>Evstratovich</succession>
+                    </SNS>
+                </winningSize>
+            </sport>
+        </nameTur>
+    </player>
+</players>

@@ -1,0 +1,306 @@
+WindowManager:
+    MainWindow:
+    ChoiceMethod:
+    TournamentName:
+    SportOderName:
+    Earnings:
+
+<MainWindow>:
+    name: "title"
+    FloatLayout:
+        ScrollView:
+            size_hint: (None, None)
+            size: (1000, 500)
+            pos_hint: {"x": 0.15, 'y': 0.33}
+            Label:
+                id: main
+                text: root.main_labels
+                halign: 'left'
+                valign: 'top'
+                size_hint: None, None
+                size: self.texture_size
+                font_name: 'DroidSansMono'
+                background_color: (0, 0, 1, 0.1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+
+        Button:
+            text: "Начать!"
+            size_hint: 1, 0.3
+            pos_hint: {"x":0, "y":0}
+            font_size: "80sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.manager.current = "choice"
+
+
+<ChoiceMethod>:
+    name: "choice"
+    FloatLayout:
+        ScrollView:
+            size_hint: (None, None)
+            size: (1000, 500)
+            pos_hint: {"x": 0.15, 'y': 0.33}
+            Label:
+                id: main
+                text: root.main_labels
+                halign: 'left'
+                valign: 'top'
+                size_hint: None, None
+                size: self.texture_size
+                font_name: 'DroidSansMono'
+                background_color: (0, 0, 1, 0.1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+        Button:
+            text: "Размер призового победителя"
+            size_hint: 0.25,0.2
+            pos_hint: {"x":0.15,"y":0}
+            font_size: "16sp"
+            background_color: 0,242,255,0.45
+            on_release:
+                app.root.current = "prize"
+
+        Button:
+            text: "Вид спорта"
+            size_hint: 0.25,0.2
+            pos_hint: {"x":0.45,"y":0}
+            font_size: "16sp"
+            background_color: 0,242,255,0.45
+            on_release:
+                app.root.current = "sportswear"
+
+        Button:
+            text: "Название турнира"
+            size_hint: 0.28,0.2
+            pos_hint: {"x":0.75,"y":0}
+            font_size: "16sp"
+            background_color: 0,242,255,0.45
+            on_release:
+                app.root.current = "tur_name"
+
+        Button:
+            text: "Назад!"
+            size_hint: 0.12, 0.2
+            pos_hint: {"x":0, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_release:
+                app.root.current = "title"
+
+<Earnings>:
+    name: "prize"
+    label: output_1
+    input: input_1
+
+    FloatLayout:
+        ScrollView:
+            size_hint: (None, None)
+            size: (1000, 500)
+            pos_hint: {"x": 0.15, 'y': 0.33}
+            Label:
+                text: ""
+                id: output_1
+                text: root.main_labels
+                halign: 'left'
+                valign: 'top'
+                size_hint: None, None
+                size: self.texture_size
+                font_name: 'DroidSansMono'
+                background_color: (0, 0, 1, 0.1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+        TextInput:
+            hint_text: "Размер призового победителя"
+            id: input_1
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0}
+            background_color: 0.1, 0.5, 0.6, 0.7
+            foreground_color: 0, 0, 0, 1
+
+        Button:
+            text: "Очистить"
+            background_color: 0.1, 0.5, 0.6, 1
+            foreground_color: 0, 0, 0, 1
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0.1}
+            on_press: root.clear()
+
+        Button:
+            text: 'Поиск'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.search_winning_size()
+
+        Button:
+            text: 'Удаление'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0.1}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.delete_winning_size()
+
+        Button:
+            text: "Назад!"
+            size_hint: 0.25, 0.2
+            pos_hint: {"x":0, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_release:
+                app.root.current = "choice"
+            on_press: root.clear()
+
+<SportOderName>:
+    name: "sportswear"
+    label: output_2
+    input: input_2
+
+    FloatLayout:
+        ScrollView:
+            size_hint: (None, None)
+            size: (1000, 500)
+            pos_hint: {"x": 0.15, 'y': 0.33}
+            Label:
+                text: ""
+                id: output_2
+                text: root.main_labels
+                halign: 'left'
+                valign: 'top'
+                size_hint: None, None
+                size: self.texture_size
+                font_name: 'DroidSansMono'
+                background_color: (0, 0, 1, 0.1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+        TextInput:
+            hint_text: "Вид спорта"
+            id: input_2
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0}
+            background_color: 0.1, 0.5, 0.6, 0.7
+            foreground_color: 0, 0, 0, 1
+
+        Button:
+            text: "Очистить"
+            background_color: 0.1, 0.5, 0.6, 1
+            foreground_color: 0, 0, 0, 1
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0.1}
+            on_press: root.clear()
+
+        Button:
+            text: 'Поиск'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.search_by_sport()
+
+        Button:
+            text: 'Удаление'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0.1}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.delete_by_sport()
+
+        Button:
+            text: "Назад!"
+            size_hint: 0.25, 0.2
+            pos_hint: {"x":0, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_release:
+                app.root.current = "choice"
+            on_press: root.clear()
+
+<TournamentName>:
+    name: "tur_name"
+    label: output
+    input: input
+    FloatLayout:
+        ScrollView:
+            size_hint: (None, None)
+            size: (1000, 500)
+            pos_hint: {"x": 0.15, 'y': 0.33}
+            Label:
+                text: ""
+                id: output
+                text: root.main_labels
+                halign: 'left'
+                valign: 'top'
+                size_hint: None, None
+                size: self.texture_size
+                font_name: 'DroidSansMono'
+                background_color: (0, 0, 1, 0.1)
+                canvas.before:
+                    Color:
+                        rgba: self.background_color
+                    Rectangle:
+                        size: self.size
+                        pos: self.pos
+        TextInput:
+            hint_text: "Название турнира"
+            id: input
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0}
+            background_color: 0.1, 0.5, 0.6, 0.7
+            foreground_color: 0, 0, 0, 1
+
+        Button:
+            text: 'Поиск'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.search_name_tur()
+
+        Button:
+            text: 'Удаление'
+            size_hint: 0.25, 0.1
+            pos_hint: {"x":0.75, "y":0.1}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_press:
+                root.delete_name_tur()
+
+        Button:
+            text: "Очистить"
+            background_color: 0.1, 0.5, 0.6, 1
+            foreground_color: 0, 0, 0, 1
+            size_hint: 0.3, 0.1
+            pos_hint: {"x": 0.35, 'y': 0.1}
+            on_press: root.clear()
+
+        Button:
+            text: "Назад!"
+            size_hint: 0.25, 0.2
+            pos_hint: {"x":0, "y":0}
+            font_size: "30sp"
+            background_color: 0, 242, 255, 0.45
+            on_release:
+                app.root.current = "choice"
+            on_press: root.clear()
